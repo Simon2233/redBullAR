@@ -15,7 +15,9 @@ public class TimedSpawn : MonoBehaviour {
 	}
 
 	public void SpawnObject() {
-		Instantiate (spawnee, transform.position, transform.rotation);
+		Vector3 position = new Vector3(Random.Range (-5.0f, 5.0f), -0.3f, Random.Range(-5.0f, 5.0f));
+		Instantiate(spawnee, position, transform.rotation);
+
 		if (stopSpawning) {
 			CancelInvoke ("SpawnObject");
 		}

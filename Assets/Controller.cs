@@ -36,9 +36,9 @@ public class Controller : MonoBehaviour {
 
 		//TODO: if let go of control --> has to be slow walk animation 
 	}
-//	void OnCollisionEnter(Collision col){
-//		if (col.gameObject.CompareTag("default")){
-//			Destroy(col.gameObject);
-//		}
-//	}
+	void OnCollisionEnter(Collision col){
+		if (col.gameObject.CompareTag("default")){
+			Destroy(col.gameObject);
+		}
+	}
 }
