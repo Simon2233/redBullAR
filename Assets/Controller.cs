@@ -7,7 +7,7 @@ public class Controller : MonoBehaviour {
 
 
 	private Rigidbody rb;
-	private Animation anim;
+	private Animation anim; 
 
 	// Use this for initialization
 	void Start () {
@@ -29,7 +29,7 @@ public class Controller : MonoBehaviour {
 		}
 
 		if (x != 0 || y != 0) {
-			anim.Play ("walk");
+			anim.Play ("run");
 		} else {
 			anim.Play ("idle");
 		}
