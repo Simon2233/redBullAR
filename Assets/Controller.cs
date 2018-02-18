@@ -7,7 +7,7 @@ public class Controller : MonoBehaviour {
 
 
 	private Rigidbody rb;
-	private Animation anim; 
+	private Animation anim;
 
 	// Use this for initialization
 	void Start () {
@@ -34,4 +34,9 @@ public class Controller : MonoBehaviour {
 			anim.Play ("idle");
 		}
 	}
+//	void OnCollisionEnter(Collision col){
+//		if (col.gameObject.CompareTag("default")){
+//			Destroy(col.gameObject);
+//		}
+//	}
 }
