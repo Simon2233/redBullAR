@@ -52,7 +52,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Controller.cs" />
+<<<<<<< HEAD
+     <Compile Include="Assets\Health.cs" />
+     <Compile Include="Assets\NewBehaviourScript.cs" />
+=======
      <Compile Include="Assets\delete.cs" />
+>>>>>>> master
      <Compile Include="Assets\TimedSpawn.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />

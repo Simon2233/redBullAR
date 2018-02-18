@@ -33,6 +33,8 @@ public class Controller : MonoBehaviour {
 		} else {
 			anim.Play ("idle");
 		}
+
+		//TODO: if let go of control --> has to be slow walk animation 
 	}
 	void OnCollisionEnter(Collision col){
 		if (col.gameObject.CompareTag("default")){
