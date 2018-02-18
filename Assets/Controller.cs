@@ -34,9 +34,9 @@ public class Controller : MonoBehaviour {
 			anim.Play ("idle");
 		}
 	}
-//	void OnCollisionEnter(Collision col){
-//		if (col.gameObject.CompareTag("default")){
-//			Destroy(col.gameObject);
-//		}
-//	}
+	void OnCollisionEnter(Collision col){
+		if (col.gameObject.CompareTag("default")){
+			Destroy(col.gameObject);
+		}
+	}
 }
